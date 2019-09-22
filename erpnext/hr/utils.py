@@ -132,7 +132,7 @@ def get_employee_fields_label():
 		# 	"notice_number_of_days", "reports_to", "leave_policy", "company_email"]:
 		# 		fields.append({"value": df.fieldname, "label": df.label})
 
-		if df.fieldname in ["department", "designation","disctrict", "block"]:
+		if df.fieldname in ["cluster","district", "block"]:
 				fields.append({"value": df.fieldname, "label": df.label})
 	return fields
 
